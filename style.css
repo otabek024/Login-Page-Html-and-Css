@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --main-color: teal;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right{
+  flex: 50%;
+}
+
+.left{
+  flex: 50%;
+  padding: 30px;
+}
+
+
+.loginPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 420px;
+  padding: 20px;
+}
+
+.mainImg{
+  width: 700px;
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 50px;
+  color: tomato;
+  margin-bottom: 20px;
+}
+
+.title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+.descLink{
+  display: flex;
+  margin-top: 5px;
+}
+
+.desc{
+  font-weight: 500;
+  color: gray;
+}
+
+.link{
+  font-weight: 600;
+  color: var(--main-color);
+  margin-left: 5px;
+}
+
+form{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label{
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  font-size: 15px;
+}
+
+.checkbox{
+  margin: 15px 0px;
+}
+
+.checkbox label{
+  color: #333;
+}
+
+.btn{
+  margin-top: 10px;
+  background-color: var(--main-color);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.or{
+  margin: 20px 0px;
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
+
+
+.btns{
+  background-color: white;
+  border: 1px solid var(--main-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--main-color);;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+}
+
+.googleImg{
+  width: 20px;
+  position: absolute;
+  left: 120px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  
+}
+
+.buttons button{
+  padding: 10px 70px;
+  cursor: pointer;
+}
+
+.githubImg{
+  width: 20px;
+  position: absolute;
+  left: 20px;
+}
+.facebookImg{
+  width: 20px;
+  position: absolute;
+  left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
